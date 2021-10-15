@@ -1,0 +1,1352 @@
+/* ************************************************************
+******* :: INDEX OF RESPONSIVE CSS :: *******
+:: 1.0 COMMON CSS
+:: 2.0 HEADER AREA CSS
+:: 3.0 WELCOME AREA CSS
+:: 4.0 BENIFITS AREA CSS
+:: 5.0 ABOUT APP AREA CSS
+:: 6.0 PRICE PLAN AREA CSS
+:: 7.0 TESTIMONIAL AREA CSS
+:: 8.0 START FREE AREA CSS
+:: 9.0 DOWNLOAD AREA CSS
+:: 10.0 BREADCRUMB AREA CSS
+:: 11.0 BLOG PAGE DETAILS AREA CSS
+:: 12.0 FOOTER AREA CSS
+:: 13.0 PREVIEW AREA CSS
+****************************** */
+
+/* ******************************
+:: 1.0 COMMON CSS
+****************************** */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ptb_180 {
+        padding: 130px 0;
+    }
+
+    .ptb_150 {
+        padding: 100px 0;
+    }
+
+    .ptb_100 {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .res-margin {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .inner-wrapper h1,
+    .inner-wrapper h2 {
+        font-size: 30px;
+    }
+
+    .ptb_180 {
+        padding: 130px 0;
+    }
+
+    .ptb_150,
+    .ptb_100 {
+        padding: 50px 0;
+    }
+
+    .res-margin {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .inner-wrapper h1,
+    .inner-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .avatar-lg {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .container-fluid {
+        padding: 0 3%;
+    }
+
+    .ptb_180 {
+        padding: 80px 0;
+    }
+}
+
+/*SECTION HEADING*/
+@media (max-width: 991px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .section-heading {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 2em;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    p {
+        line-height: 26px;
+    }
+
+    .headings > h2,
+    .section-heading > h2 {
+        line-height: 1.5;
+    }
+}
+
+/* ******************************
+:: 2.0 HEADER AREA CSS
+****************************** */
+@media (min-width: 992px) {
+    .navbar .navbar-nav .nav-link {
+        padding: 1.625rem 0.8rem;
+    }
+
+    .navbar-sticky-on .navbar-nav .nav-link {
+        padding-top: 1.625rem;
+        padding-bottom: 1.625rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .main:before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        background: rgb(0 0 0 / 42%);
+        z-index: 3;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+
+    [data-theme=dark] .main:before {
+        background: #01081f;
+    }
+
+    .canvas-open {
+        overflow: hidden;
+    }
+
+    .canvas-open .main:before {
+        width: 100%;
+        opacity: .95;
+        visibility: visible;
+    }
+
+    .navbar {
+        /* padding-top: 0.625rem;
+        padding-bottom: 0.625rem; */
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar.active .navbar-inner {
+        right: 0;
+    }
+
+    .navbar .navbar-inner {
+        right: -100%;
+        -webkit-transition: right 0.3s 0.2s;
+        transition: right 0.3s 0.2s;
+    }
+
+    .navbar .nav-link {
+        border-bottom: 1px solid #eee;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    [data-theme=dark] .navbar .nav-link {
+        border-bottom: 1px solid #1E2745;
+    }
+
+    .navbar.navbar-dark .nav-link {
+        color: #54565a;
+        text-shadow: none;
+    }
+
+    .navbar.navbar-dark .nav-link-btn{
+        color: #fff;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    [data-theme=dark] .navbar.navbar-dark .nav-link {
+        color: #f6f8f9;
+    }
+
+    .navbar.navbar-dark .nav-link:hover,
+    .navbar.navbar-dark .nav-link:focus,
+    .navbar.navbar-dark .nav-link.active,
+    .navbar.navbar-dark .nav-link.current-menu-item {
+        color: #2c2e30;
+    }
+
+    [data-theme=dark] .navbar.navbar-dark .nav-link {
+        color: #e7eaee;
+    }
+
+    [data-theme=dark] .navbar.navbar-dark .nav-link:hover {
+        background: #01081f;
+    }
+
+    .navbar-inner {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 20rem;
+        padding-top: 2.5rem;
+        background-color: #fff;
+        -webkit-box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.15);
+        border-radius: 0;
+        overflow-y: auto;
+        z-index: 1050;
+    }
+
+    [data-theme=dark] .navbar-inner {
+        background: #151c32;
+    }
+
+    .navbar-inner .dropdown-menu:before {
+        content: none;
+    }
+
+    .navbar-inner .dropdown-menu {
+        border: medium none;
+        background: none;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        float: none;
+        margin: 0;
+        padding-top: 0;
+        position: static;
+    }
+
+    [data-theme=dark] .navbar-inner .dropdown-menu .dropdown-item {
+        color: #f6f8f9;
+    }
+
+    [data-theme=dark] .navbar-inner .dropdown-menu .dropdown-item:hover {
+        background: #01081f;
+    }
+
+    .nav-open .main-wrapper {
+        -webkit-transform: translate3d(-150px, 0, 0);
+        transform: translate3d(-150px, 0, 0);
+    }
+
+    /*MOBILE NAVBAR TOGGLER*/
+    .navbar-toggler {
+        position: absolute !important;
+        top: auto;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        border: none;
+        height: 100%;
+        width: 3.75rem;
+        background-image: none;
+        border-radius: 0;
+        z-index: 1;
+        display: inline-block;
+    }
+
+    .navbar-inner .navbar-toggler {
+        position: absolute;
+        height: 2.5rem;
+        top: 0;
+    }
+
+    .navbar-toggler-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: none !important;
+    }
+
+    .navbar-toggler-icon,
+    .navbar-toggler-icon:before,
+    .navbar-toggler-icon:after {
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .navbar-toggler-icon {
+        height: 3px;
+        width: 50%;
+        background: #7e8085;
+        display: inline-block;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        /* background: #fff; */
+        background: #eba24a;
+    }
+
+    .navbar-sticky-on .navbar-toggler-icon{
+        background: #7e8085;
+    }
+
+    .navbar-dark .navbar-toggler-icon.active:before,
+    .navbar-dark .navbar-toggler-icon.active:after {
+        background: #7e8085;
+    }
+
+    .navbar-toggler-icon:before,
+    .navbar-toggler-icon:after {
+        content: "";
+        background: #7e8085;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .navbar-dark .navbar-toggler-icon:before,
+    .navbar-dark .navbar-toggler-icon:after {
+        /* background: #fff; */
+        background: #eba24a;
+    }
+
+    .navbar-sticky-on .navbar-toggler-icon:before,
+    .navbar-sticky-on .navbar-toggler-icon:after {
+        background: #7e8085;
+    }
+
+    .navbar-toggler-icon::before {
+        top: -0.625rem;
+    }
+
+    .navbar-toggler-icon::after {
+        top: 0.625rem;
+    }
+
+    .navbar-toggler-icon.active {
+        background-color: transparent;
+        -webkit-transform: scale(0.85) rotate(270deg);
+        transform: scale(0.85) rotate(270deg);
+    }
+
+    .navbar-toggler-icon.active:before {
+        top: 0;
+        -webkit-transform: scale(0.65) rotate(45deg);
+        transform: scale(0.65) rotate(45deg);
+    }
+
+    .navbar-toggler-icon.active:after {
+        top: 0;
+        -webkit-transform: scale(0.65) rotate(-45deg);
+        transform: scale(0.65) rotate(-45deg);
+    }
+}
+
+@media (max-width: 767px) {
+    .homepage-1 .navbar-dark .navbar-toggler-icon {
+        /* background: #7e8085; */
+    }
+    .homepage-1 .navbar-dark .navbar-toggler-icon:before,
+    .homepage-1 .navbar-dark .navbar-toggler-icon:after {
+        /* background: #7e8085; */
+    }
+    .homepage-1 .navbar-dark .navbar-toggler-icon.active {
+        background-color: transparent;
+    }
+}
+
+/* ******************************
+:: 3.0 WELCOME AREA CSS
+****************************** */
+@media (min-width: 991px) {
+    .homepage-4 .contact-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+    .welcome-area {
+        height: 700px !important;
+    }
+
+    .welcome-intro > h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcome-area {
+        /* height: 100% !important; */
+        /* padding-top: 90px; */
+    }
+
+    .homepage-5 .welcome-area {
+        padding-bottom: 90px;
+    }
+
+    .welcome-intro {
+        margin-top: 30px;
+    }
+
+    .welcome-intro > h3 {
+        font-size: 26px;
+    }
+
+    .homepage-6 .welcome-thumb {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 575px) {
+    .welcome-intro {
+        margin-top: 0;
+    }
+
+    .welcome-intro > h3 {
+        font-size: 22px;
+    }
+    .homepage-1 .welcome-thumb {
+        max-width: 200px;
+    }
+    .welcome-intro h1{
+        font-size: 40px;
+    }
+    .welcome-area{
+        height: 410px !important;
+        background-position: center;
+    }
+    .navbar-brand img{
+        max-width: 100px;
+    }
+
+}
+
+/* ******************************
+:: 4.0 BENIFITS AREA CSS
+****************************** */
+@media (max-width: 767px) {
+    .benifits-item {
+        text-align: center;
+    }
+}
+
+/* ******************************
+:: 5.0 ABOUT AREA CSS
+****************************** */
+@media(max-width: 1200px){
+    .bg-about-area{
+        height: 500px;
+        width: 800px;
+    }
+    .about-area .inner{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 80px 80px 100px;
+    }
+    .about-area .inner .head h1{
+        font-size: 3em;
+    }
+    .about-area .inner .head h1 span{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-thumb {
+        min-height: 350px;
+    }
+}
+
+/* ******************************
+:: 6.0 PRICE PLAN AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .single-price-plan {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .price-plan-wrapper .single-price-plan {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+    .price-plan-wrapper .plan-select,
+    .price-plan-wrapper .featured .plan-select {
+        padding: 20px;
+    }
+
+    .price-plan-wrapper .featured {
+        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .price-plan-wrapper .single-price-plan {
+        width: 100%;
+    }
+
+    .single-price-plan:first-of-type {
+        margin-top: 0;
+    }
+}
+
+/* ******************************
+:: 7.0 TESTIMONIAL AREA CSS
+****************************** */
+@media (max-width: 767px) {
+    .testimonial-area .owl-dots {
+        bottom: -15px;
+    }
+}
+
+/* ******************************
+:: 8.0 START FREE AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .start-free-content {
+        text-align: center;
+        padding: 4rem;
+    }
+
+    .start-free-text > h2 {
+        font-size: 2.3em;
+    }
+}
+
+@media (max-width: 767px) {
+    .start-free-content {
+        padding: 3rem;
+    }
+
+    .start-free-text > h2 {
+        font-size: 2em;
+    }
+
+    .start-free-btn .btn {
+        font-size: 15px;
+        padding: 13px 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .start-free-text > h2 {
+        font-size: 1.6em;
+    }
+
+    .start-free-text span {
+        font-size: 14px;
+    }
+}
+
+/* ******************************
+:: 9.0 DOWNLOAD AREA CSS
+****************************** */
+@media (max-width: 767px) {
+    .download-text > h2 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 575px) {
+    .download-text > h2 {
+        font-size: 2em;
+    }
+
+    .button-group a:nth-child(2) {
+        margin-right: 0;
+    }
+}
+
+/* ******************************
+:: 10.0 BREADCRUMB AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .breadcrumb-content > h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .breadcrumb-area {
+        height: 350px;
+    }
+
+    .breadcrumb-content > h3 {
+        font-size: 24px;
+    }
+}
+
+/* ******************************
+:: 12.0 FOOTER AREA CSS
+****************************** */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .footer-items {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-area .footer-items {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .footer-area .col-12:last-of-type .footer-items {
+        margin-bottom: 0;
+    }
+}
+
+/* ******************************
+:: 13.0 PREVIEW AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .preview-area .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .preview-area .single-preview {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .preview .welcome-area {
+        height: 580px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .preview .welcome-area {
+        height: 550px !important;
+    }
+
+    .preview .badge-light {
+        font-size: 14px;
+        padding-left: .4em;
+        padding-right: .4em;
+    }
+}
+
+@media(min-width: 992px) and (max-width:1199px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 1rem;
+        padding-left: .6rem;
+        padding-right: .6rem;
+        letter-spacing: 0;
+    }
+    .nav-link-btn{
+        /* padding: 8px 22px !important; */
+        font-size: 12px !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1199px){
+    .footer-area .footer-items ul li a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1199px){
+    .order-1199-1{
+        order: 2;
+    }
+    .order-1199-2{
+        order: 1;
+    }
+    .welcome-intro h1{
+        padding-left: 0;
+    }
+    /* .room-list{
+        margin-left: 80px;
+        margin-right: 100px;
+    } */
+    .room-link{
+        right: 30px;
+    }
+    .testi-head{
+        position: relative;
+    right: 0;
+    margin-bottom: 25px;
+    }
+    .testi-head h1{
+        font-size: 50px
+    }
+    .countbox-inner{
+        padding: 50px;
+    }
+    .welcome-head h1,
+    .whychoose-head h1{
+        font-size: 5em;
+    }
+    .circles{
+        left: 60px;
+    }
+    .welcome-intro{
+        max-width: 530px;
+    }
+    .property-box{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .fac-about p{
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 991px){
+    .welcome-intro h1{
+        font-size: 60px;
+    }
+    .form-box{
+        flex-direction: column;
+        height: 171px;
+        color: #000;
+        opacity: inherit;
+    }
+    .property-box{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+    }
+    .form-btn{
+        margin-bottom: 10px
+    }
+    .form-btn a{
+        height: 50px;
+    }
+    .bg-about-area{
+        width: 100%;
+    }
+    .about-area .inner{
+        margin-top: 432px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .room-list{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .facilities-area .section-heading h2,
+    .fac-text h2{
+        font-size: 30px;
+    }
+    .single-box{
+        max-width: 535px;
+    }
+    .footer-items{
+        text-align: center;
+    }
+    .footer-area .footer-items ul,
+    .footer-area .mail-social-icons,
+    .copyright-area{
+        justify-content: center !important;
+    }
+    .about-welcome .tp-head{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .welcome-head h1, .whychoose-head h1{
+        font-size: 3em ;
+    }
+    .welcome-head h1{
+        font-size: 60px;
+    }
+    .about-para{
+        margin-bottom: 60px;
+    }
+    .countbox-inner{
+        margin-right: 100px;
+    }
+    .whychoose-head p{
+        color: #2e2e2e;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+    .circles .c-2{
+        z-index: 0;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        padding: .8rem;
+    }
+    .nav-link-btn {
+        padding: 12px 25px !important;
+        font-size: 15px !important;
+        margin-top: 15px;
+    }
+    .comp-fac{
+        margin-bottom: 25px;
+    }
+    .fac-aminities h2{
+        font-size: 26px;
+    }
+    .about-content-area{
+        padding-left: 0;
+    }
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .about-content-area .first{
+        margin-bottom: 25px;
+    }
+    .navbar-inner nav{
+        background-color: transparent;
+        opacity: inherit;
+    }
+    .fac-about{
+        padding: 10px 10px 0 0;
+    }
+    .fac-about p{
+        font-size: 18px;
+        margin-bottom: 39px;
+        line-height: 24px;
+    }
+    .rooms-area-demo .tab-content{
+        left: 0;
+    }
+    .rooms-area-demo .main-box{
+        margin-top: 60px;
+    }
+    .owl-nav{
+        position: absolute;
+        bottom: -65px;
+        left: 0;
+    }
+    .rooms-area-demo{
+        padding-bottom: 150px;
+    }
+    .testi-head{
+        margin-bottom: 45px;
+    }
+    .single-box{
+        flex-direction: column;
+        padding: 100px;
+        text-align: center;
+        max-width: inherit;
+    }
+    .testi-details{
+        flex: 100%;
+        margin-bottom: 30px;
+    }
+    .testi-text{
+        flex: 100%;
+        padding-left: 0;
+    }
+    .abt-image{
+        margin-bottom: 25px;
+    }
+    .abt-text p{
+        font-size: 16px;
+    }
+    .fac-box-area{
+        padding: 16px;
+    }
+    .kk-logo{
+        padding-left: 0;
+    }
+    .kk-logo img{
+        max-width: 150px;
+    }
+    .dest-box{
+        margin-bottom: 35px;
+    }
+    .room-inner{
+        flex-direction: column;
+    }
+    .room-post,
+    .room-content{
+        width: 100%;
+    }
+    .room-content.order2-991{
+        order: 2;
+    }
+    .room-post.order1-991{
+        order: 1;
+    }
+    .room-content-inner{
+        padding: 50px 50px 70px;
+    }
+    .news-area{
+        padding-bottom: 100px;
+    }
+    .mega-menu.blog-menu{
+        transform: translateX(0);
+    }
+    .single-menu{
+        margin-top: 10px;
+    }
+    .single-menu li a{
+        background-color: #ddd;
+        margin-bottom: 5px;
+        color: #111;
+    }
+    .nav-item-popup {
+        background: transparent;
+    }
+    .nav-item-popup a{
+        background: #183c6c;
+    }
+    .navbar-brand {
+        padding-top: 1.65rem;
+        padding-bottom: 1.65rem;
+    }
+}
+
+
+@media(max-width: 767px){
+    .form-box{
+        height: 385px;
+    }
+    .property-box{
+        padding: 25px;
+    }
+    .property-box .prop-box,
+    .property-box .prop-box2{
+        margin-bottom: 8px;
+    }
+    .form-btn{
+        margin-bottom: 20px;
+    }
+    .facility-inner{
+        margin-bottom: 25px;
+    }
+    .single-box{
+        max-width: none;
+        padding: 70px;
+    }
+    .testi-text p{
+        font-size: 18px;
+    }
+    .book-box{
+        padding: 50px;
+    }
+    .book-box .header h3{
+        font-size: 28px;
+    }
+    .call-btn{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .call-btn .call{
+        margin-bottom: 45px;
+    }
+    .footer-area .footer-items ul,
+    .footer-area .mail-social-icons{
+        flex-direction: column;
+    }
+    .footer-area .footer-items ul li{
+        margin-bottom: 10px;
+    }
+    .footer-area .mail-social-icons{
+        align-items: center;
+        margin-top: 0;
+    }
+    .footer-area .mail-social-icons a{
+        margin-bottom: 10px;
+    }
+    .footer-top{
+        padding: 40px 0;
+    }
+    .nav-link-btn{
+        padding: 12px 32px !important;
+    }
+    .countbox-inner {
+        margin-right: 81px;
+        margin-left: 80px;
+        padding: 45px;
+    }
+    .choose-box{
+        margin-bottom: 30px;
+    }
+    .book-area2 .book-inner .bk-nw,
+    .book-inner{
+        height: 300px;
+    }
+    .adr-box{
+        border-right: none;
+    }
+    .order-fac-2{
+        order: 2;
+    }
+    .order-fac-1{
+        order: 1;
+    }
+    .facilities-area{
+        padding: 80px 0;
+    }
+    .fac-box{
+        margin-bottom: 30px;
+    }
+    .fac-about{
+        padding: 30px 0 50px;
+    }
+    .fac-about p{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .rooms-area-demo .main-box h2{
+        font-size: 60px;
+    }
+    .testi-head h1{
+        font-size: 30px;
+    }
+    .book-area{
+        padding-bottom: 0;
+    }
+    .dest-img img{
+        width: 100%;
+    }
+    .reserv-image,
+    .reserv-head{
+        height: auto;
+    }
+    .reserv-head h1{
+        font-size: 60px;
+        padding: 100px 0;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+    .book-inner{
+        height: 420px;
+    }
+} 
+
+
+@media(max-width: 575px){
+    .welcome-intro h1{
+        font-size: 36px;
+    }
+    .form-btn a img{
+        max-width: 12px;
+    }
+    .form-box{
+        height: 400px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .home-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #313e318f;
+        opacity: 0.9;
+    }
+    .property-box{
+        padding: 18px;
+    }
+    .form-btn a{
+        font-size: 18px;
+        height: 55px;
+    }
+    .bg-about-area{
+        height: 250px;
+    }
+    .about-area .inner{
+        margin-top: 225px;
+        padding: 35px 35px 50px
+    }
+    .about-area .inner .head h1{
+        font-size: 1.8em;
+    }
+    .about-area .inner .head h1 span{
+        font-size: 33px;
+    }
+    .about-area .inner .head{
+        margin-bottom: 18px;
+    }
+    .about-area .inner .text p{
+        font-size: 17px;
+    }
+    .facilities-area .section-heading h2 {
+        font-size: 20px;
+    }
+    .fac-text p{
+        font-size: 15px;
+    }
+    .facility-inner {
+        margin-bottom: 35px;
+    }
+    .room-list{
+        padding: 40px 40px 50px;
+    }
+    .room-list ul li a{
+        font-size: 25px;
+    }
+    .room-link{
+        right: 0;
+        width: 100%;
+        transform: translate(-50%,-50%);
+        left: 95px;
+        text-align: center;
+    }
+    .room-link a{
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    .testi-area{
+        padding: 80px 0 !important;
+    }
+    .owl-nav{
+        right: 0;
+        text-align: center;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        bottom: -100px;
+    }
+    .book-box{
+        padding: 35px;
+    }
+    .book-box .header h3{
+        font-size: 20px;
+    }
+    .book-box .header {
+        margin-bottom: 30px;
+    }
+    .call-btn .call span,
+    .call-btn .call a{
+        font-size: 22px;
+    }
+    .call-btn .bk-nw a{
+        font-size: 18px;
+        padding: 15px 50px;
+    }
+    .call-btn .call {
+        margin-bottom: 30px;
+    }
+    .bread-box{
+        height: 350px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .bread-head{
+        text-align: center;
+    }
+    .bread-head h1{
+        font-size: 2.8em;
+    }
+    .bread-head span, .bread-head span a{
+        font-size: 15px;
+    }
+    .welcome-head h1{
+        margin-bottom: 30px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .countbox-inner{
+        margin: 0;
+    }
+    .about-img{
+        margin-top: 25px;
+    }
+    .about-welcome .tp-head{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .about-para p{
+        font-size: 18px;
+    }
+    .welcome-head2 h1{
+        font-size: 34px;
+    }
+    .right-line,
+    .left-line{
+        top: 85px;
+    }
+    .facility-box h2{
+        font-size: 28px;
+    }
+    .facility-box{
+        padding: 80px 0 0;
+    }
+    .fac-other{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .write-area-head h1{
+        font-size: 2.5em;
+    }
+    .reserv-title h2{
+        font-size: 40px;
+    }
+    .reserv-apply-area{
+        padding: 65px 30px;
+        box-shadow: 0px 8px 30px #6c757d69;
+    }
+    .dotted-pattern-6,
+    .tri-pattern-5{
+        display: none;
+    }
+    .testi-main-area{
+        padding: 100px 0;
+    }
+    .welcome-intro{
+        top: 55px;
+        max-width: 360px;
+    }
+    .welcome-intro > h3{
+        font-size: 18px;
+    }
+    .welcome-intro h1{
+        font-size: 32px;
+    }
+    .welcome-intro p{
+        font-size: 12px;
+    }
+    .form-area{
+        margin: -20px 15px 25px;
+    }
+    .about-head h1{
+        font-size: 45px;
+    }
+    .about-head span{
+        font-size: 55px;
+    }
+    .about-head h4{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .about-area{
+        padding: 80px 0 100px;
+    }
+    .fac-box{
+        padding: 0 15px;
+    }
+    .fac-about{
+        padding: 30px 15px 50px;
+    }
+    .rooms-area-demo .main-box h2{
+        font-size: 45px;
+    }
+    .single-box{
+        padding: 30px;
+    }
+    .testi-quote{
+        right: 30px;
+    }
+    .book-area{
+        padding: 30px 0;
+    }
+    .welcome-intro::before{
+        top: -15px;
+    }
+    .welcome-intro > h3{
+        margin-bottom: 0;
+    }
+    .welcome-intro h1{
+        margin-bottom: 5px;
+    }
+    .fac-box-area{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .kk-part{
+        padding-bottom: 80px;
+    }
+    .desti-head span,
+    .desti-head h2{
+        font-size: 50px;
+    }
+    .destini-btn-box h2{
+        margin-bottom: 55px;
+    }
+    .extra-fac-head span{
+        font-size: 50px;
+    }
+    .extra-fac-head h2{
+        font-size: 42px;
+    }
+    .fac-box-inner{
+        padding: 60px 20px 35px;
+    }
+    .room-content-inner{
+        padding: 40px 30px 70px;
+    }
+    .room-content-inner .room-description{
+        margin-top: 20px;
+    }
+    .reserv-head h1{
+        font-size: 45px;
+        padding: 50px 0;
+    }
+    .head-section-testi h1{
+        font-size: 35px;
+    }
+    .head-section-testi {
+        margin-bottom: 25px;
+    }
+    .head-section-news h1{
+        font-size: 40px;
+    }
+    .lower-box h3{
+        font-size: 25px;
+    }
+    .hotels-head h1{
+        font-size: 55px;
+    }
+    .hotels-head p{
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 400px){
+    .welcome-intro p::before{
+        display: none;
+    }
+}
+
