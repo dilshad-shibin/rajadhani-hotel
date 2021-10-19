@@ -124,8 +124,8 @@
     $('.testi-box-slider.owl-carousel').owlCarousel({
         loop: true,
         margin: 0,
-        nav: false,
-        dots: true,
+        nav: true,
+        dots: false,
         smartSpeed: 2000,
         autoplay: false,
         autoplayTimeout: 5000,

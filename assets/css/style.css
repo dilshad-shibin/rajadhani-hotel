@@ -11,6 +11,7 @@
 :: 9.0 ABOUT AREA CSS
 :: 10.0 FACILITIES AREA CSS
 :: 11.0 ROOMS AREA CSS
+:: 12.0 SERVICES AREA CSS
 :: 12.0 TESTIMONIALS AREA CSS
 :: 13.0 Book AREA CSS
 :: 14.0 FOOTER AREA CSS
@@ -430,7 +431,7 @@ img {
     width: 40px;
     line-height: 40px;
     border-radius: 3px;
-    background-color: #195a62;
+    background-color: #183c6c;
     text-align: center;
     cursor: pointer;
     z-index: 500;
@@ -696,7 +697,7 @@ img {
 
 .single-menu li:hover a{
     color: #fff;
-    background-color: #9b1b44;
+    background-color: #f9c78c;
 }
 
 .nav-item-popup{
@@ -1062,20 +1063,52 @@ img {
 }
 
 /* ******************************
-:: 12.0 TESTIMONIALS AREA CSS
+:: 12.0 SERVICES AREA CSS
 ****************************** */
-.testi-area{
-    background-image: url(../img/testimonials/testi-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    padding-top: 70px;
+.services-area{
+    background: #f0f0f0;
 }
 
-.single-testi{
-    position: relative;
-    padding: 50px 160px 80px 80px;
-    background: #e7f2f4;
-    max-width: 750px;
+.service-head h1{
+    color: #183c6c;
+    margin-bottom: 50px;
+    font-size: 55px;
+    letter-spacing: 1px;
+}
+
+.service-box{
+    background: #fff;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 6%);
+    transition: all .3s ease;
+    margin: 0 15px 30px;
+}
+
+.service-content h3{
+    color: #183c6c;
+    padding: 35px 0;
+    font-size: 28px;
+}
+
+.service-img img{
+    width: 100%;
+}
+
+/* ******************************
+:: 13.0 TESTIMONIALS AREA CSS
+****************************** */
+.testi-left-img{
+    background-image: url(../img/testi-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+}
+
+.test-left-color{
+    background: #f9c78c;
+}
+
+.testi-content-side{
+    padding: 136px 0 136px 55px;
 }
 
 .testi-quote{
@@ -1086,50 +1119,51 @@ img {
 }
 
 .testi-text p{
-    font-size: 21px;
-    line-height: 35px;
-    font-style: italic;
-    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    color: #183c6c;
+    position: relative;
+    text-indent: 5px;
+    font-family: 'Playfair Display', serif;
+    max-width: 500px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.testi-text p img{
+    display: inline-table !important;
+    position: relative;
+    margin-top: -32px;
 }
 
 .testi-name{
-    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .testi-name h2{
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: #183c6c;
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 4px;
 }
 
 .testi-name span{
-    color: #9ea2a3;
+    color: #183c6c;
     font-size: 20px;
 }
 
-.testi-photo{
-    position: absolute;
-    top: 60%;
-    right: -82%;
-    transform: translate(-50%,-50%);
-}
-
 .testi-head{
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .testi-head h1{
-    font-size: 42px;
-    color: #fff;
+    font-size: 40px;
+    color: #183c6c;
     letter-spacing: 2px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
 }
-
-/* New testi css */
 
 .single-client-testi{
     position: relative;
@@ -1137,53 +1171,37 @@ img {
 }
 
 .single-box{
-    background: #001b2485;
     position: relative;
-    padding: 115px 160px 100px 80px;
-    display: flex;
+    padding-top: 25px;
     border-radius: 10px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.client-pic{
-    position: relative;
-}
-
-.client-pic img{
-    margin: 0 auto;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-}
-
-.testi-details{
-    flex: 0 0 30%;
-    text-align: center;
-}
-
-.testi-text{
-    flex: 0 0 70%;
-    padding-left: 100px;
-}
-
-.testi-box-slider .owl-dots{
+.testi-box-slider .owl-nav{
     display: block;
-    text-align: center;
-    margin-top: 30px;
 }
 
-.owl-dots button {
-    background: #d2d5da8f !important;
-    height: 15px;
-    width: 15px;
+.testi-box-slider .owl-nav button {
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
+    border: 1px solid #183c6c !important;
     margin-right: 8px;
     outline: none;
 }
 
-.owl-dots button.active{
+.testi-box-slider .owl-nav button.active{
     background-color: #fff !important;
+}
+
+.testi-box-slider .owl-nav button span{
+    font-size: 45px;
+}
+
+.testi-box-slider .owl-nav [class*=owl-]:hover{
+    background: #183c6c;
+    color: #fff;
 }
 
 /* ******************************
@@ -1261,12 +1279,15 @@ img {
 :: 14.0 FOOTER AREA CSS
 ****************************** */
 .footer-area {
-    background-color: #f0f0f0;
+    background-color: #183c6c;
 }
 
 .copyright-area {
-    border-top: 1px solid #6767679e;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.copyright-area-top{
+    border-top: 1px solid #f9c78c;
 }
 
 .footer-area  .footer-items{
@@ -1314,6 +1335,91 @@ img {
 
 .copyright-area a img{
     max-width: 100px;
+}
+
+.footer-adress p{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.2;
+}
+
+.ft-contact-area{
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-contact-area .ft-number,
+.ft-contact-area .ft-booknw{
+    background: #fff;
+    display: flex;
+    margin-right: 35px;
+    align-items: center;
+}
+
+.ft-contact-area .ft-number .ft-num-img{
+    background: #f9c78c;
+    padding: 15px 18px; 
+}
+
+.ft-contact-area .ft-number .ft-num{
+    padding: 15px;
+}
+
+.ft-contact-area .ft-booknw .ft-book-img,
+.ft-contact-area .ft-booknw .ft-bookbtn{
+    padding: 15px 18px;
+}
+
+.ft-contact-area .ft-booknw .ft-bookbtn{
+    background: #f9c78c;
+    padding: 18px;
+}
+
+.ft-contact-area .ft-booknw .ft-bookbtn a{
+    color: #183c6c;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 60px;
+}
+
+.ft-contact-area .ft-num a,
+.ft-contact-area .ft-bookbtn a{
+    color: #183c6c;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.ft-icons ul{
+    display: flex;
+}
+
+.ft-icons ul li{
+    margin-right: 15px;
+}
+
+.ft-icons ul li a{
+    color: #f9c78c !important;
+    font-size: 28px;
+}
+
+.ft-mail a{
+    color: #fff !important;
+    font-size: 18px;
+}
+
+.ft-mail svg{
+    color: #f9c78c !important;
+}
+
+.copyright-left{
+    color: #5f7592;
+    font-size: 15px;
 }
 
 /* ******************************
@@ -1382,6 +1488,10 @@ img {
     width: 100%;
     padding: 0 15px;
     cursor: pointer;
+}
+
+.date_icon_popup{
+    background-color:  transparent;
 }
 
 .form-control {
@@ -2100,7 +2210,7 @@ img {
 
 .download-close{
     float: right;
-    background: #9b1b44;
+    background: #183c6c;
     border-radius: 45px;
     border: 1px solid transparent;
     width: 46px;
@@ -2153,7 +2263,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
-    background: linear-gradient(to right, #9b1b44 0%, transparent 100%);
+    background: linear-gradient(to right, #f9c78c 0%, transparent 100%);
     z-index: 99;
 }
 
@@ -2198,7 +2308,7 @@ img {
 
 #letter5 input:focus {
     outline: none !important;
-    border: 0.5px solid #9b1b44;
+    border: 0.5px solid #f9c78c;
     color: #193d6f;
 }
 
@@ -2212,7 +2322,7 @@ img {
 }
 
 .popup-btn a{
-    background: #9b1b44;
+    background: #f9c78c;
     color: #fff;
     padding: 12px 50px;
     border-radius: 5px;
@@ -2220,7 +2330,7 @@ img {
 }
 
 .popup-btn a:hover{
-    background-color: #144d5b;
+    background-color: #183c6c;
     color: #fff;
 }
 

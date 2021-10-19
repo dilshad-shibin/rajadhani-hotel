@@ -732,16 +732,25 @@
     .circles{
         left: 60px;
     }
-    .welcome-intro{
-        max-width: 530px;
-    }
     .property-box{
-        padding-left: 0;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .fac-about p{
         font-size: 22px;
         margin-bottom: 40px;
+    }
+    .welcome-intro h1{
+        font-size: 52px;
+    }
+    .rooms-content{
+        padding-left: 80px;
+    }
+    .testi-content-side {
+        padding: 124px 0 124px 55px;
+    }
+    .testi-head h1 {
+        font-size: 35px;
     }
 }
 
@@ -941,6 +950,44 @@
     .navbar-brand {
         padding-top: 1.65rem;
         padding-bottom: 1.65rem;
+    }
+    .welcome-intro{
+        top: 100px;
+    }
+    .welcome-intro h1 {
+        font-size: 35px;
+    }
+    .about-area{
+        margin-top: -121px;
+        padding-top: 160px;
+    }
+    .testi-left-img{
+        height: 400px;
+    }
+    .testi-content-side{
+        padding: 35px;
+        padding-bottom: 100px;
+    }
+    .testi-head h1{
+        text-align: center;
+    }
+    .single-box{
+        padding: 0;
+        padding-top: 25px;
+    }
+    .testi-text p{
+        margin:0 auto;
+        margin-bottom: 25px;
+    }
+    .testi-box-slider .owl-nav{
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .ft-contact-area{
+        flex-direction: column;
+    }
+    .ft-contact-area .ft-number, .ft-contact-area .ft-booknw{
+        margin-bottom: 20px;
     }
 }
 
