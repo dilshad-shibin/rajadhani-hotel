@@ -989,6 +989,13 @@
     .ft-contact-area .ft-number, .ft-contact-area .ft-booknw{
         margin-bottom: 20px;
     }
+    .about-page-area{
+        margin-top: -120px;
+    }
+    .kk-logo-left {
+        float: right;
+        padding-right: 50px;
+    }
 }
 
 
@@ -1118,6 +1125,50 @@
     }
     .ft-logo, .ft-icons{
         margin-bottom: 15px;
+    }
+    .about-page-area {
+        margin-top: -335px;
+    }
+    .about-page-content-box {
+        padding: 60px 70px 60px;
+    }
+    .about-page-content-box p{
+        max-width: inherit;
+    }
+    .content-para p{
+        font-size: 16px;
+    }
+    .get-here-box{
+        margin-bottom: 30px;
+    }
+    .ambiance-img{
+        height: 350px;
+    }
+    .ambiance-content {
+        padding: 50px 50px;
+    }
+    .order-767-2{
+        order: 2;
+    }
+    .order-767-1{
+        order: 1;
+    }
+    .order-767-3{
+        order: 3;
+    }
+    .order-767-4{
+        order: 4;
+    }
+    .kk-logo-left{
+        float: inherit;
+        padding: 60px 0;
+        text-align: center;
+    }
+    .kk-logo-left img{
+        max-width: 250px;
+    }
+    .kk-right-content {
+        padding: 60px 60px;
     }
 }
 
@@ -1454,6 +1505,29 @@
     }
     .testi-box-slider .owl-nav{
         bottom: -70px;
+    }
+    .breadcrumb-area,
+    .bread-box{
+        height: 240px;
+    }
+    .about-page-area {
+        margin-top: -405px;
+    }
+    .about-page-img{
+        height: 426px;
+    }
+    .about-page-content-box {
+        padding: 60px 40px 60px;
+    }
+    .kk-right-content {
+        padding: 60px 40px;
+    }
+    .bread-box{
+        margin-top: 0;
+        width: 100%;
+    }
+    .bread-head h1{
+        margin-left: 0;
     }
 }
 

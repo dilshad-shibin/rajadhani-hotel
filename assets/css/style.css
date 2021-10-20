@@ -1513,7 +1513,6 @@ img {
     align-items: center;
     justify-content: space-between;
     height: 120px;
-    opacity: 0.9;
     background: #fff;
 }
 
@@ -1611,34 +1610,155 @@ img {
 :: 17.0 ABOUT PAGE 
 ****************************** */
 .breadcrumb-area{
-    background-image: url(../img/about/about-chakkarakallu.jpg);
+    background-image: url(../img/about/about-banner.jpg);
     background-size: cover;
     background-position: center;
-    height: 560px;
+    height: 380px;
 }
 
 .bread-box{
-    height: 560px;
+    height: 380px;
     display: flex;
     align-items: center;
-    margin-top: 140px;
 }
 
 .bread-head h1{
     color: #fff;
     font-size: 60px;
     font-weight: 700;
+    margin-left: 115px;
 }
 
-.bread-head span,
-.bread-head span a{
+.about-page-area{
+    position: relative;
+    margin-top: -70px;
+}
+
+.about-page-img{
+    background-image: url(../img/about/about-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.about-page-content{
+    background-color: #f0f0f0;
+}
+
+.about-page-content-box{
+    padding: 170px 70px 100px;
+}
+
+.about-page-content-box p{
+    font-size: 18px;
+    color: #183c6c;
+    margin-bottom: 35px;
+    max-width: 365px;
+    line-height: 28px;
+    font-family: 'Playfair Display', serif;
+}
+
+.content-para p{
+    color: #363636;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    max-width: 975px;
+}
+
+.get-here{
+    background-color: #183c6c;
+}
+
+.get-here-head{
     color: #fff;
-    font-size: 20px;
+    margin-bottom: 60px;
+    font-size: 30px;
 }
 
-.bread-head span a:hover{
-    color: #ffde00;
+.get-here-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.get-here-box .content{
+    margin-left: 20px;
+}
+
+.get-here-box .content h3{
+    color: #ffffffdb;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.get-here-box .content h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #ffffff8f;
+    max-width: 175px;
+}
+
+.ambiance-img{
+    background-image: url(../img/about/inner-ambiance.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+.ambiance-content{
+    padding: 100px 100px;
+}
+
+.ambiance-content .head h2{
+    color: #183c6c;
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.ambiance-content .content p{
+    color: #183c6c;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 500px;
+}
+
+.content-bg{
+    background-color: #f0f0f0;
+    padding: 100px 100px;
+}
+
+.kk-head h1{
+    font-size: 35px;
+    color: #183c6c;
+    margin-bottom: 25px;
+}
+
+.kk-content p{
+    color: #1b1c1e;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 500px;
+}
+
+.kk-right-content{
+    padding: 100px 100px;
+}
+
+.kk-logo-left{
+    float: right;
+    padding-right: 100px;
+}
+
+/* ........ */
 
 .welcome-head{
     margin-bottom: 50px;
