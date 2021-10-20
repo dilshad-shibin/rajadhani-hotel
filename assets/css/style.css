@@ -718,7 +718,38 @@ img {
 
 .welcome-intro{
     position: relative;
-    top: 150px;
+    /* top: 150px; */
+    bottom: -120px;
+}
+
+@media(max-width: 1440px){
+    .welcome-intro{
+        bottom: -100px;
+    }
+}
+
+@media(max-width: 1439px) and (min-width:1200px){
+    .welcome-intro{
+        bottom: -75px;
+    }
+    .welcome-intro h1{
+        font-size: 52px !important;
+    }
+    .welcome-intro h1::before{
+        right: 18% !important;
+    }
+    .welcome-intro h1::after{
+        left: 18% !important;
+    }
+    .banner-slider .owl-dots{
+        bottom: 65px !important;
+    }
+}
+
+@media(max-width: 1199px) and (min-width:992px){
+    .welcome-intro{
+        bottom: 0px;
+    }
 }
 
 .welcome-intro .k-logo img{
@@ -888,6 +919,15 @@ img {
     transform: translate(-50%,-50%);
 }
 
+.banner-slider .owl-dots button{
+    background-color: #eca755 !important;
+
+}
+
+.banner-slider .owl-dots button.active{
+    background-color: #eca755 !important;
+}
+
 
 /* ******************************
 :: 9.0 ABOUT AREA CSS
@@ -957,12 +997,19 @@ img {
 /* ******************************
 :: 11.0 ROOMS AREA CSS
 ****************************** */
-.room-one{
-    background-image: url(../img/rooms/room.jpg);
+.rooms-img{
     background-position: center;
     background-size: cover;
     height: 700px;
     position: relative;
+}
+
+.room-one{
+    background-image: url(../img/rooms/room.jpg);
+}
+
+.room-two{
+    background-image: url(../img/rooms/room2.jpg);
 }
 
 .image-name{
@@ -1378,12 +1425,26 @@ img {
 
 .ft-contact-area .ft-booknw .ft-bookbtn{
     background: #f9c78c;
+    border: 1px solid #f9c78c;
     padding: 18px;
+}
+
+.ft-contact-area .ft-booknw .ft-book-img img{
+    max-width: 30px;
+}
+
+.ft-contact-area .ft-booknw .ft-bookbtn:hover{
+    background-color: #183c6c;
+    border: 1px solid #f9c78c;
+}
+
+.ft-contact-area .ft-booknw .ft-bookbtn a:hover{
+    color: #f9c78c;
 }
 
 .ft-contact-area .ft-booknw .ft-bookbtn a{
     color: #183c6c;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     padding: 20px 60px;
 }
@@ -1391,8 +1452,12 @@ img {
 .ft-contact-area .ft-num a,
 .ft-contact-area .ft-bookbtn a{
     color: #183c6c;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 500;
+}
+
+.ft-contact-area .ft-num a:hover{
+    color: #f9c78c;
 }
 
 .ft-icons ul{
@@ -1408,9 +1473,17 @@ img {
     font-size: 28px;
 }
 
+.ft-icons ul li a:hover{
+    color: #fff !important;
+}
+
 .ft-mail a{
     color: #fff !important;
     font-size: 18px;
+}
+
+.ft-mail a:hover{
+    color: #f9c78c !important;
 }
 
 .ft-mail svg{

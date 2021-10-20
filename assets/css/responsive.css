@@ -1103,6 +1103,22 @@
         font-size: 60px;
         padding: 100px 0;
     }
+    .welcome-intro h1::before{
+        right: 8%;
+    }
+    .welcome-intro h1::after{
+        left: 8%;
+    }
+    .about-area {
+        margin-top: -335px;
+        padding-top: 370px;
+    }
+    .copyright-area-top{
+        flex-direction: column;
+    }
+    .ft-logo, .ft-icons{
+        margin-bottom: 15px;
+    }
 }
 
 @media(min-width: 576px) and (max-width: 768px){
@@ -1184,9 +1200,6 @@
     .room-link a{
         font-size: 18px;
         padding: 15px 30px;
-    }
-    .testi-area{
-        padding: 80px 0 !important;
     }
     .owl-nav{
         right: 0;
@@ -1283,13 +1296,19 @@
     }
     .welcome-intro{
         top: 55px;
-        max-width: 360px;
+        max-width: inherit;
     }
     .welcome-intro > h3{
         font-size: 18px;
     }
     .welcome-intro h1{
-        font-size: 32px;
+        font-size: 22px;
+    }
+    .welcome-intro .k-logo img{
+        max-width: 65px;
+    }
+    .banner-slider .owl-dots{
+        bottom: 45px;
     }
     .welcome-intro p{
         font-size: 12px;
@@ -1320,7 +1339,8 @@
         font-size: 45px;
     }
     .single-box{
-        padding: 30px;
+        padding: 0px;
+        padding-top: 22px;
     }
     .testi-quote{
         right: 30px;
@@ -1387,6 +1407,53 @@
     }
     .hotels-head p{
         padding: 0;
+    }
+    .about-area {
+        margin-top: -405px;
+        padding-top: 410px;
+    }
+    .rooms-content{
+        padding: 100px 20px;
+    }
+    .rooms-img,
+    .image-name{
+        height: 350px;
+    }
+    .image-name h2{
+        bottom: 28%;
+        font-size: 35px;
+    }
+    .rooms-slider .owl-nav{
+        left: 22%;
+        bottom: 10px;
+    }
+    .room-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(18 18 18 / 38%);
+        opacity: 0.9;
+    }
+    .service-box{
+        margin: 0 0 30px;
+    }
+    .footer-adress p{
+        font-size: 25px;
+    }
+    .ft-contact-area .ft-num a, .ft-contact-area .ft-bookbtn a{
+        font-size: 20px;
+    }
+    .ft-contact-area .ft-booknw .ft-bookbtn a{
+        font-size: 20px;
+        padding: 20px 32px;
+    }
+    .ft-contact-area .ft-number, .ft-contact-area .ft-booknw{
+        margin-right: 0;
+    }
+    .testi-box-slider .owl-nav{
+        bottom: -70px;
     }
 }
 
