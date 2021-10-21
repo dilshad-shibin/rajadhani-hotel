@@ -1590,6 +1590,15 @@
         margin-top: -405px;
         padding-top: 410px;
     }
+    .gallery-tab ul li{
+        margin-bottom: 15px;
+    }
+    .gallery-area{
+        padding-top: 10px;
+    }
+    .gallery-tab .nav li a{
+        margin-right: 0;
+    }
 }
 
 
