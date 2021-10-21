@@ -2249,8 +2249,10 @@ img {
 /* ******************************
 :: 20.0  CONTACT PAGE 
 ****************************** */
-.breadcrumb-area-contact{
-    background-image: url(../img/contact/banner.jpg);
+.contact-area{
+    background-color: #f0f0f0;
+    margin-top: -70px;
+    padding-top: 100px;
 }
 
 .adr-box{
@@ -2263,7 +2265,7 @@ img {
 }
 
 .adr-box .logo{
-    background: #86193c;
+    background: #183c6c;
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -2273,7 +2275,7 @@ img {
 }
 
 .adr-box .logo svg{
-    color: #fff;
+    color: #eca755;
     font-size: 20px;
 }
 
@@ -2281,21 +2283,17 @@ img {
     font-size: 25px;
     margin-bottom: 10px;
     letter-spacing: 1px;
-    color: #9b1b44;
+    color: #183c6c;
 }
 
 .adr-box p{
-    font-size: 16px;
-    color: #144d5b;
+    font-size: 15px;
+    color: #183c6c;
 }
 
 .adr-box p a:hover{
-    color: #144d5b;
+    color: #eca755;
     text-decoration: underline;
-}
-
-.write-area{
-    padding-top: 10px;
 }
 
 .write-area-head h1{
@@ -2325,7 +2323,7 @@ img {
 .btn-submit{
     text-align: center;
     text-align: center;
-    background: #9b1b44;
+    background: #183c6c;
     color: #fff;
     padding: 12px 30px;
     font-size: 16px;
