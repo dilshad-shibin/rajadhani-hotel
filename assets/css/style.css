@@ -3122,8 +3122,9 @@ side-news .post .info {
 /* ******************************
 :: 27.0 ABOUT HOTELS PAGE
 ****************************** */
-.breadcrumb-area-hotels{
-    background-image: url(../img/about/about-chakkarakallu.jpg);
+.about-hotels{
+    background-color: #f0f0f0;
+    margin-top: -70px;
 }
 
 .hotels-head{
@@ -3133,14 +3134,15 @@ side-news .post .info {
 }
 
 .hotels-head h1{
-    font-size: 65px;
-    color: #9b1b44;
+    font-size: 50px;
+    color: #183c6c;
     margin-bottom: 12px;
+    margin-top: 32px;
 }
 
 .hotels-head p{
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 24px;
     padding: 0 50px;
 }
 
@@ -3303,17 +3305,17 @@ side-news .post .info {
     color: #ffffff;
     font-weight: 500;
     padding: 15px 40px;
-    background: #9b1b44;
+    background: #f9c78c;
     border-radius: 0px;
     outline: 1px solid transparent;
     z-index: 1;
-    border: 1px solid #9b1b44;
+    border: 1px solid #f9c78c;
 }
 
 .hover-box .link-box a:hover{
     background-color: #fff;
-    color: #9b1b44;
-    border: 1px solid #9b1b44;
+    color: #183c6c;
+    border: 1px solid #f9c78c;
 }
 
 .hotel-block:hover .hover-box{

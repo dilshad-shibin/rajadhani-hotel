@@ -996,6 +996,13 @@
         float: right;
         padding-right: 50px;
     }
+    .about-hotels {
+        background-color: #f0f0f0;
+        margin-top: -120px;
+    }
+    .hotels-head h1{
+        margin-top: 70px;
+    }
 }
 
 
@@ -1169,6 +1176,12 @@
     }
     .kk-right-content {
         padding: 60px 60px;
+    }
+    .about-hotels{
+        margin-top: -335px;
+    }
+    .hotels-head h1 {
+        margin-top: 325px;
     }
 }
 
@@ -1455,6 +1468,7 @@
     }
     .hotels-head h1{
         font-size: 55px;
+        margin-top: 350px;
     }
     .hotels-head p{
         padding: 0;
@@ -1528,6 +1542,9 @@
     }
     .bread-head h1{
         margin-left: 0;
+    }
+    .about-hotels {
+        margin-top: -406px;
     }
 }
 
