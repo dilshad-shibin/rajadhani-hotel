@@ -1003,6 +1003,13 @@
     .hotels-head h1{
         margin-top: 70px;
     }
+    .facilities-area {
+        background-color: #edebe5;
+        margin-top: -120px;
+    }
+    .fac-main-head h1{
+        margin-top: 80px;
+    }
 }
 
 
@@ -1182,6 +1189,22 @@
     }
     .hotels-head h1 {
         margin-top: 325px;
+    }
+    .facilities-area{
+        margin-top: -335px;
+    }
+    .fac-main-head h1 {
+        margin-top: 310px;
+    }
+    .count-box{
+        padding-bottom: 50px;
+    }
+    .count-box:first-of-type::before,
+    .count-box:first-of-type::after{
+        display: none;
+    }
+    .count-box:last-of-type:before{
+        width: 100%;
     }
 }
 
@@ -1545,6 +1568,15 @@
     }
     .about-hotels {
         margin-top: -406px;
+    }
+    .facilities-area {
+        margin-top: -405px;
+    }
+    .fac-main-head h1 {
+        margin-top: 335px;
+    }
+    .last-mnt-head h2{
+        margin-bottom: 25px;
     }
 }
 
