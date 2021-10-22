@@ -752,6 +752,9 @@
     .testi-head h1 {
         font-size: 35px;
     }
+    .hotel-box-list{
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 991px){
@@ -1013,6 +1016,9 @@
     .contact-area{
         margin-top: -120px;
         padding-top: 170px;
+    }
+    .fac2-head{
+        margin-bottom: 50px;
     }
 }
 
@@ -1607,6 +1613,15 @@
     }
     .banner-slider .owl-dots button:before{
         font-size: 10px;
+    }
+    .fac-main-head h1{
+        font-size: 38px;
+    }
+    .hotel-box-list .heading{
+        align-items: center;
+    }
+    .service-box-fac{
+        padding: 30px 60px;
     }
 }
 
