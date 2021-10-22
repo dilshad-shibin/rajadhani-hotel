@@ -1917,6 +1917,10 @@ img {
     letter-spacing: 1px;
 }
 
+.breadcrumb-area-hotels{
+    background-image: url(../img/breadcrumbs/01.jpg);
+}
+
 /* ******************************
 :: 18.0  DESTINATIONS PAGE 
 ****************************** */
@@ -2158,6 +2162,10 @@ img {
 /* ******************************
 :: 19.0  FACILITIES PAGE 
 ****************************** */
+.breadcrumb-area-facilities{
+    background-image: url(../img/breadcrumbs/02.jpg);
+}
+
 .facilities-area{
     background-color: #edebe5;
     margin-top: -70px;
@@ -2284,6 +2292,10 @@ img {
 /* ******************************
 :: 20.0  CONTACT PAGE 
 ****************************** */
+.breadcrumb-area-contact{
+    background-image: url(../img/breadcrumbs/05.jpg);
+}
+
 .contact-area{
     background-color: #f0f0f0;
     margin-top: -70px;
@@ -2391,6 +2403,10 @@ img {
 /* ******************************
 :: 21.0  RESERVATION PAGE 
 ****************************** */
+.breadcrumb-area-reservation{
+    background-image: url(../img/breadcrumbs/03.jpg);
+}
+
 .reservation-area{
     background-image: url(../img/pattern_menu.jpg);
     background-size: cover;
@@ -3133,6 +3149,10 @@ side-news .post .info {
 /* ******************************
 :: 26.0 GALLERY PAGE CSS
 ****************************** */
+.breadcrumb-area-gallery{
+    background-image: url(../img/breadcrumbs/04.jpg);
+}
+
 .shapes-container {
     position: absolute;
     top: 0;
