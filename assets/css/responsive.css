@@ -1599,6 +1599,15 @@
     .gallery-tab .nav li a{
         margin-right: 0;
     }
+    .banner-slider .owl-dots button.active,
+    .banner-slider .owl-dots button{
+        width: 18px;
+        height: 18px;
+        line-height: 10px;
+    }
+    .banner-slider .owl-dots button:before{
+        font-size: 10px;
+    }
 }
 
 

@@ -920,14 +920,45 @@ img {
 }
 
 .banner-slider .owl-dots button{
-    background-color: #eca755 !important;
+    border: 1px solid #eca755 !important;
+    border: none;
+    width: 25px;
+    height: 25px;
+    line-height: 13px;
+    background-color: transparent !important;
+}
 
+.banner-slider .owl-dots button:before{
+    content: "1";
+    color: #eca755
+}
+
+.banner-slider .owl-dots button:nth-child(2)::before{
+    content: "2";
+    color: #eca755
+}
+
+.banner-slider .owl-dots button:nth-child(3)::before{
+    content: "3";
+    color: #eca755
 }
 
 .banner-slider .owl-dots button.active{
     background-color: #eca755 !important;
+    width: 25px;
+    height: 25px;
+    line-height: 13px;
+    border: none;
 }
 
+.banner-slider .owl-dots button::before{
+    background-color: transparent;
+}
+
+.banner-slider .owl-dots button.active::before{
+    background-color: #eca755;
+    color: #473f34;
+}
 
 /* ******************************
 :: 9.0 ABOUT AREA CSS
