@@ -1685,7 +1685,7 @@ img {
 }
 
 .about-page-content-box p{
-    font-size: 18px;
+    font-size: 19px;
     color: #183c6c;
     margin-bottom: 35px;
     max-width: 365px;
@@ -1693,10 +1693,14 @@ img {
     font-family: 'Playfair Display', serif;
 }
 
+.about-page-content-box p:last-child{
+    margin-bottom: 0;
+}
+
 .content-para p{
     color: #363636;
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
     line-height: 28px;
     text-align: center;
@@ -1760,7 +1764,7 @@ img {
 .ambiance-content .content p{
     color: #183c6c;
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 28px;
     max-width: 500px;
 }
@@ -1913,7 +1917,7 @@ img {
 
 .kk-content p{
     color: #252525;
-    font-size: 16px;
+    font-size: 19px;
     letter-spacing: 1px;
 }
 
@@ -2439,10 +2443,15 @@ img {
 }
 
 .fac2-head p{
-    margin-bottom: 20px;
+    margin-bottom: 42px;
     font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    max-width: 300px;
+    line-height: 28px;
+}
+
+.fac-rm-content ul li{
     font-size: 16px;
-    max-width: 240px;
 }
 
 .fac2-head .fac2-btn{
@@ -2509,8 +2518,8 @@ img {
 }
 
 .adr-box p{
-    font-size: 15px;
-    color: #183c6c;
+    font-size: 17px;
+    color: #141516;
 }
 
 .adr-box p a:hover{
@@ -2605,7 +2614,9 @@ img {
 }
 
 .reserv-title .reserv-para p{
-    font-size: 15px;
+    font-size: 18px;
+    max-width: 475px;
+    line-height: 28px;
 }
 
 .reserv-apply-area{
