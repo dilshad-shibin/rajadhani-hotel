@@ -1685,7 +1685,8 @@ img {
 }
 
 .about-page-content-box p{
-    font-size: 19px;
+    font-size: 21px;
+    font-weight: 600;
     color: #183c6c;
     margin-bottom: 35px;
     max-width: 365px;
